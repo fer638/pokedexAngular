@@ -1,0 +1,36 @@
+@use "./../assets/styles/var.scss";
+
+
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    user-select: none;
+    background: linear-gradient(
+        to right,
+        #6188ff,
+        #6188ff 70%,
+        #88daf3 71%
+
+
+    );
+}
+
+#tituloContainer{
+    display: flex;
+    justify-content: space-b;
+    align-items: center;
+    padding: 0 5PX;
+    background-color: #88daf3;
+    width: 300px;
+    border-radius: 50PX;
+    height: 50PX;
+    color: var.$texto-blanco ;
+    border: solid 3px #30408d;
+    img{
+        height: 50px;
+    }
+}
+
