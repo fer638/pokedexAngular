@@ -1,0 +1,16 @@
+#container{
+    height: calc(100vh - 110px) ;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+}
+
+app-pic-pokemon{
+    margin-left: 100px;
+}
+
+#tarjetContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
