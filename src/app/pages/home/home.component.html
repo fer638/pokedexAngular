@@ -2,11 +2,10 @@
     <app-pic-pokemon></app-pic-pokemon>
 
     <div id="tarjetContainer">
-    <app-tarjet-pokemon></app-tarjet-pokemon>
-    <app-tarjet-pokemon></app-tarjet-pokemon>
-    <app-tarjet-pokemon></app-tarjet-pokemon>
-    <app-tarjet-pokemon></app-tarjet-pokemon>
+    <app-tarjet-pokemon *ngFor="let pokemon of listPokemon"
+    [data]="pokemon"    >
+    </app-tarjet-pokemon>
+
 
     </div>
-  
 </main>
